@@ -1,0 +1,169 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 375px;
+  overflow: scroll;
+  height:667px;
+}
+
+
+nav {
+  position: fixed;
+  width: 100%;
+  max-width: 375px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.5;
+  margin-left: 5px;
+  color: white;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 1.3em;
+  line-height: 1.4;
+  align: center;
+  margin-left: 5px;
+  margin-right: 5px
+}
+
+.Status{
+  width:375px;
+  height: 70px;
+  background-color: #3B842C;
+  background-position:top;
+  background-image: url(../images/Status.png);
+  background-repeat: no-repeat;
+}
+
+.Wash{
+  width: 100%;
+  height: 340px;
+background-image: url(../images/BusMap.png);
+background-position: center;
+}
+
+.BusSchedule {
+  background-color: #3B842C;
+  padding: 15px;
+  box-shadow: 0px 3px 10px -2px #111;
+}
+
+.buses {
+  width: 100%;
+  height: 300px;
+  margin-top: 470px;
+}
+
+.content {
+  background-color: #2c3b84;
+  padding: 8px;
+  margin-bottom: 1px;
+}
+
+.OutofService {
+  background-color: #842c3b;
+  display: block;
+  padding: 8px;
+  margin: 0px;
+}
+
+.Reroute {
+  background-color: #842c67;
+  display: block;
+  padding: 8px;
+  margin: 0px;
+}
+
+.bus {
+  background-color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+  margin-top: 2px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  box-shadow: 0px 44px 0px -7px silver;
+}
+
+.pill{
+  width: 65px;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  text-align: center;
+  padding-top: 0px;
+  border-radius: 25px;
+  font-size: 18px;
+  background: #2c3b84;
+  color: white;
+}
+
+.box1{
+  width: 170px;
+  height: 50px;
+  background-color: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 12px;
+  font-size: 12px;
+}
+.test{
+  width: 110px;
+  height: 50px;
+  background-color: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding-top:12px;
+  font-size: 12px;
+}
+
+i {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    display: inline-block;
+
+
+}
+
+.left {
+  height: 12px;
+  width: 12px;
+  margin-top: 40px;
+  margin-left: 25px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+p {
+  color: white;
+  font-size: 16px;
+}
+
+.streetname{
+  color: white;
+  margin-top: -16px;
+  margin-left: 115px;
+  font-size: 16px;
+}
+
+
+/*body *{border: 1px solid blue;}
